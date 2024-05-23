@@ -1,28 +1,27 @@
-public class Jolteon extends Eevee{
+public class Sylveon extends Eevee {
 
-    public Jolteon(String tipo, int altura, int hp, double peso){
+    public Sylveon(String tipo, int altura, int hp, double peso){
         super(tipo, altura, hp, peso);
     }
-    
+
     @Override
     public String ataque() {
-        return "Trovoada - Thunder-Shock";
+        return "Voz desarmante";
     }
 
     @Override
     public String defesa() {
-       return "Carga - Wild Charger"; 
-       
+        return "Fita mágica";
     }
 
     @Override
     public String especial() {
-        return "Raio - Thunder";
+        return "Chicote sinfônico";
     }
     
     @Override
     public void imprimir(){
-        System.out.println("Meu nome é: Jolteon");
+        System.out.println("Meu nome é: Sylveon");
         System.out.println("Tipo: " +getTipo());
         System.out.println("Altura: " + getAltura());
         System.out.println("HP: " + getHP());
